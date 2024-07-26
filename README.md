@@ -1,5 +1,7 @@
 # Swiss Ephemeris
 
+This repository is a fork of [vsmithers1087's SwissEphemeris](https://github.com/vsmithers1087/SwissEphemeris). The original Swiss Ephemeris library was created by [vsmithers1087](https://github.com/vsmithers1087). We thank the author for their work and contributions.
+
 This repository contains the [Swiss Ephemeris](https://www.astro.com/swisseph/swephinfo_e.htm#proflic), packaged with a wrapper written in Swift. All Swiss Ephemeris C code has not been modified, is accessible and can be called directly after importing the package. If you program in C, or are familiar with the original library it is possible to ignore the Swift code.
 
 I am working on a Swift wrapper for convenience and accessibility for developers who are not familiar with C, but would like to leverage the power of this ephemeris. This is still a work in progress, and the current state of the wrapper only utilizes a small percentage of what the ephemeris offers.
